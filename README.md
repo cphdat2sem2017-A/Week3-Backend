@@ -4,12 +4,13 @@ This week we will look at some more backend. We will build on the previous 2 wee
 2. SQL and database design
 
 In this week we will focus on
+
 **Day** | **Topic**  
----|---
-1 Performance | MySql Indexes and Stored Procedures
-2 Maintainability| Sql injection, Views, Data Mapper pattern and 3 layer architecture
-3 Transactions| Database transactions, Exception handling and Junit Testing
-4 MVC pattern | MVC pattern and JSP page views
+---|---  
+1 Performance | MySql Indexes and Stored Procedures  
+2 Maintainability| Sql injection, Views, Data Mapper pattern and 3 layer architecture  
+3 Transactions| Database transactions, Exception handling and Junit Testing  
+4 MVC pattern | MVC pattern and JSP page views  
 5 SP day | Studypoint exercise
 
 ###Reading
