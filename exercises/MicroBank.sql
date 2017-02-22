@@ -5,7 +5,7 @@ CREATE TABLE `User` (
   `password` varchar(45) NOT NULL,
   `role` varchar(45) NOT NULL,
   PRIMARY KEY (`userName`)
-)
+);
 INSERT INTO `User` VALUES ('ben','3456','cust'),('bill','2345','cust'),('joe','1234','admin');
 
 DROP TABLE IF EXISTS `Account`;
@@ -17,5 +17,5 @@ CREATE TABLE `Account` (
   PRIMARY KEY (`id`),
   KEY `owner_idx` (`owner`),
   CONSTRAINT `owner` FOREIGN KEY (`owner`) REFERENCES `User` (`userName`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) 
+);
 INSERT INTO `Account` VALUES (1000,'bill',2500),(1010,'ben',3000);
